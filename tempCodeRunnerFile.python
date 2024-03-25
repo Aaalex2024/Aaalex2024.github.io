@@ -1,0 +1,14 @@
+a1 = int(input())
+a2 = int(input())
+a3 = int(input())
+a4 = int(input())
+a1a2 = 0
+a3a4 = 0
+if a1 <= a2:
+    a1a2 = a1
+if a3 <= a4:
+    a3a4 = a3
+if a1a2 <= a3a4:
+    print(a1a2)
+else:
+    print(a3a4)
